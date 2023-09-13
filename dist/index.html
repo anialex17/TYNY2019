@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TYNY 2019</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script defer src="bundle.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header_content">
+        <div class="header_content__logo">
+          <a href="#" class="logo">
+            <img src="../src/assets/img/logo.svg" alt="TYNY 2019">
+          </a>
+          <button class="menu-button">
+            <span></span>
+          </button>
+        </div>
+        <div class="header_content__body">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li><a class="menu__link" href="#">Конференция</a></li>
+              <li><a class="menu__link" href="#">Программа</a></li>
+              <li><a class="menu__link" href="#">Спикеры</a></li>
+              <li><a class="menu__link" href="#">Фото</a></li>
+              <li><a class="menu__link" href="#">Материалы</a></li>
+            </ul>
+          </nav>
+
+          <div>
+            <a class="sign-up" href="#">Регистрация</a>
+          </div>
+
+          <div class="contacts">
+            <a href="#" class="icon-email"></a>
+            <a href="#" class="icon-facebook"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="conference">
+    <div class="container">
+      <div class="conference__top">
+        <div class="conference__date">
+          <img src="../src/assets/img/leftImage.svg" alt="digital-конференции NextM">
+        </div>
+        <div class="conference__img">
+          <img src="../src/assets/img/rightImage.svg" alt="digital-конференции NextM">
+        </div>
+        <div class="conference__btn">
+          <a class="btn" href="#">зарегистрироваться</a>
+        </div>
+      </div>
+      <div class="conference__text">
+        <p class="small-title">Команда рекламного холдинга GroupM рада
+          открыть для вас двери digital-конференции NextM!</p>
+
+        <p>NextM - это ежегодная digital-конференция,
+          организованная ведущей международной рекламной группой GroupM, входящей в состав коммуникационного холдинга
+          WPP и
+          представленной в России агентствами Mindshare, MediaCom и Wavemaker.</p>
+      </div>
+
+      <div class="scroll-down">
+        <button>
+          <svg width="87" height="31" viewBox="0 0 87 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.999999 0.999999L43.5 29L86 0.999995" stroke="white" stroke-width="2" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="speakers">
+    <div class="container">
+      <h2 class="h2">Спикеры</h2>
+
+      <div class="swiper speakers-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-slide_content slide">
+              <div class="slide_img">
+                <img src="../src/assets/img/man.jpg" alt="ЯРОН ФАРИЗОН">
+              </div>
+              <div class="slide_info">
+                <p class="slide_name">ЯРОН ФАРИЗОН</p>
+                <p class="slide_position">CEO MediaCom</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide_content slide">
+              <div class="slide_img">
+                <img src="../src/assets/img/man.jpg" alt="ЯРОН ФАРИЗОН">
+              </div>
+              <div class="slide_info">
+                <p class="slide_name">ЯРОН ФАРИЗОН</p>
+                <p class="slide_position">CEO MediaCom</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide_content slide">
+              <div class="slide_img">
+                <img src="../src/assets/img/man.jpg" alt="ЯРОН ФАРИЗОН">
+              </div>
+              <div class="slide_info">
+                <p class="slide_name">ЯРОН ФАРИЗОН</p>
+                <p class="slide_position">CEO MediaCom</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide_content slide">
+              <div class="slide_img">
+                <img src="../src/assets/img/man.jpg" alt="ЯРОН ФАРИЗОН">
+              </div>
+              <div class="slide_info">
+                <p class="slide_name">ЯРОН ФАРИЗОН</p>
+                <p class="slide_position">CEO MediaCom</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next "></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="form-section">
+    <div class="container">
+      <h2 class="h2">Отправить сообщение</h2>
+
+      <form class="form">
+        <div class="form__inputs">
+          <label class="form__label">
+            <input name="name" class="form__item" type="text" placeholder="Ваше имя">
+          </label>
+          <label class="form__label">
+            <input name="email" class="form__item" type="email" placeholder="Email">
+          </label>
+          <label class="form__label form__label--textarea">
+            <textarea rows="4" class="form__item" name="message" placeholder="Ваше сообщение"></textarea>
+          </label>
+        </div>
+        <div class="form__button">
+          <button type="button" id="form-btn" class="btn">отправить</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="text-center">
+      <div><a href="mailto:info@groupmnextm.ru">info@groupmnextm.ru</a></div>
+      <div><a href="tel:74956414080">+7 (495) 641-40-80</a></div>
+      <div><a href="#"><small>Правовая информация</small></a></div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
